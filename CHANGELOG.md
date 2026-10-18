@@ -3,6 +3,17 @@
 Kanał wersji wtyczki. Instalacje czytają stąd `latest.json` (przycisk „Sprawdź teraz”
 w Ustawieniach). Paczki ZIP dostajesz tam, gdzie kupiłeś wtyczkę.
 
+## 1.4.1 — 2026-10-18
+
+- **Licencja wtyczki prościej:** klucz publiczny jest wbudowany, wystarczy wkleić klucz IQLB.
+- **Poprawka:** w motywach klasycznych formularz zakupu pokazywał ten sam produkt dwa razy
+  (skrypty ładowały się podwójnie). Dotyczyło też kreatora rezerwacji i konta klienta.
+- **Poprawka:** na ekranie produktu ramka „Gdzie oferować” wchodziła pod pole nazwy.
+- Formularz zakupu wyjaśnia, że domenę licencji podaje się dopiero przy aktywacji.
+
+Wgraj `iql-paywall-commerce-booking-1.4.1.zip` jak poprzednio, potem wyczyść cache strony
+(np. W3 Total Cache), żeby goście dostali nowy HTML.
+
 ## 1.4.0 — 2026-10-18
 
 ### Uporządkowany panel
