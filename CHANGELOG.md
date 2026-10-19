@@ -3,6 +3,29 @@
 Kanał wersji wtyczki. Instalacje czytają stąd `latest.json` (przycisk „Sprawdź teraz”
 w Ustawieniach). Paczki ZIP dostajesz tam, gdzie kupiłeś wtyczkę.
 
+## 1.4.2 — 2026-10-19
+
+### Licencje i produkty w panelu
+- **Usuwanie licencji** z ekranu licencji albo zbiorczo z listy; unieważnianie też zbiorczo.
+- **Data końca aktualizacji** wpisywana wprost albo „bez limitu”.
+- **Rodzaj licencji** w produkcie: jednorazowa, subskrypcja albo dożywotnia — widać go
+  w sklepie i w programie klienta.
+- **Usuwanie produktu** z ekranu edycji, razem z plikami. Produktu z licencjami nie da się
+  usunąć przez przypadek. Numer wersji wgranego pliku można poprawić.
+
+### Pakiety i pliki
+- **Komponenty**: kilka pluginów pod jednym kluczem (np. Optimizer + Monitor), każdy
+  z własnymi wersjami. API licencji podaje wersję wskazanego komponentu.
+- Znacznik `{{IQL_LICENSE_KEY}}` w pliku „budowanym pod klienta”: plik działa bez
+  wpisywania klucza.
+
+### Poprawki
+- Kasa i kreator rezerwacji obok Elementora 4 bez podwójnych pozycji.
+- Kreator rezerwacji dopasowuje układ do szerokości widżetu.
+- Edytor grafiku tygodnia w panelu znów pokazuje dni.
+
+Wgraj `iql-paywall-commerce-booking-1.4.2.zip` jak poprzednio, potem wyczyść cache strony.
+
 ## 1.4.1 — 2026-10-18
 
 - **Licencja wtyczki prościej:** klucz publiczny jest wbudowany, wystarczy wkleić klucz IQLB.
